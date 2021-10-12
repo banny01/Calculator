@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" accessibleText="My C" prefHeight="370.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLCalculatorController">
+    <children>
+        <Label fx:id="label" alignment="CENTER_RIGHT" layoutX="15.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="55.0" prefWidth="277.0" style="-fx-border-color: grey; -fx-background-color: light-grey;" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button layoutX="15.0" layoutY="91.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="91.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="167.0" layoutY="91.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="15.0" layoutY="147.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="147.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="167.0" layoutY="147.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="15.0" layoutY="204.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="204.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="167.0" layoutY="204.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="15.0" layoutY="257.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text="0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="257.0" mnemonicParsing="false" onAction="#getValues" prefHeight="35.0" prefWidth="52.0" text=".">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="167.0" layoutY="257.0" mnemonicParsing="false" onAction="#getOperator" prefHeight="35.0" prefWidth="52.0" text="=">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="241.0" layoutY="91.0" mnemonicParsing="false" onAction="#getOperator" prefHeight="35.0" prefWidth="52.0" text="/">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="241.0" layoutY="147.0" mnemonicParsing="false" onAction="#getOperator" prefHeight="35.0" prefWidth="52.0" text="*">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="241.0" layoutY="204.0" mnemonicParsing="false" onAction="#getOperator" prefHeight="35.0" prefWidth="52.0" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="241.0" layoutY="257.0" mnemonicParsing="false" onAction="#getOperator" prefHeight="35.0" prefWidth="52.0" text="+">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="update" layoutX="108.0" layoutY="321.0" mnemonicParsing="false" onAction="#getUpdates" style="-fx-border-color: black; -fx-border-radius: 5px;" text="Check Updates" />
+    </children>
+</AnchorPane>
